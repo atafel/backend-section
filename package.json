@@ -1,0 +1,40 @@
+{
+  "name": "backend-section",
+  "version": "1.0.0",
+  "description": "My fisrt api in NodeJs",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/atafel/backend-section.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/atafel/backend-section/issues"
+  },
+  "homepage": "https://github.com/atafel/backend-section#readme",
+  "dependencies": {
+    "awilix": "^7.0.2",
+    "bcrypt": "^5.0.1",
+    "compression": "^1.7.4",
+    "cors": "^2.8.5",
+    "express": "^4.18.0",
+    "express-async-errors": "^3.1.1",
+    "helmet": "^5.0.2",
+    "jsonwebtoken": "^8.5.1",
+    "memory-cache": "^0.2.0",
+    "mongoose": "^6.3.1",
+    "swagger-ui-express": "^4.3.0"
+  },
+  "devDependencies": {
+    "dotenv": "^16.0.0",
+    "jest": "^28.0.2",
+    "mockingoose": "^2.15.2",
+    "nodemon": "^2.0.15"
+  }
+}
